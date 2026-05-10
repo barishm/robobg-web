@@ -478,7 +478,7 @@ const RobotForm = ({ action = 'C', id = null }) => {
                                     <div className="mb-3">
                                         <label htmlFor="exampleFormControlInput1" className="form-label">Water Tank Capacity</label>
                                         <div className="input-group">
-                                            <input className="form-control form-control-sm" type={isUpdate ? "text" : "number"} name="moppingFeatures.waterTankCapacity" onChange={formik.handleChange} value={formik.values.moppingFeatures?.waterTankCapacity || ""} aria-label=".form-control-sm example" />
+                                            <input className="form-control form-control-sm" type="text" name="moppingFeatures.waterTankCapacity" onChange={formik.handleChange} value={formik.values.moppingFeatures?.waterTankCapacity || ""} aria-label=".form-control-sm example" />
                                             <span className="input-group-text">ml</span>
                                         </div>
                                     </div>
